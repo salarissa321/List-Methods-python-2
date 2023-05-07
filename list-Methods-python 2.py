@@ -43,7 +43,7 @@ print(e.index("Shergo")) # 1
 # Insert()
 
 
-s = [1,2,3,4 ,"A","B"]
+s = [1,2,3,4 ,"A","B"] # Always before the Value
 s.insert(0,"test") # ['test', 1, 2, 3, 4, 'A', 'B']
 s.insert(-1,"test") # ['test', 1, 2, 3, 4, 'A', 'test', 'B']
 print(s)
